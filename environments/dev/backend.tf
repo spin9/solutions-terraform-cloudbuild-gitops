@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "econtactsbook-tfstate"
     prefix = "env/dev"
   }
 }
